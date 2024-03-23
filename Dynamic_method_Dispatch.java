@@ -11,11 +11,11 @@ class Child extends Parent{
 }
 public class Dynamic_method_Dispatch {
     public static void main(String[] args) {
-        Child baby = new Child();
-        Parent daddy = new Child();  // here Dynamic method Dispatch concept used
+        Child c = new Child();
+        Parent p = new Child();  // here Dynamic method Dispatch concept used
 
-        daddy.display();
-        baby.display();
+        p.display();
+        c.display();
     }
     
 }
